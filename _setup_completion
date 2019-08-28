@@ -1,6 +1,6 @@
-#compdef _setup setup
+#compdef _setup_completion setup
 
-function _setup {
+function _setup_completion {
     local line
 
     _files -W "$HOME/.config/setup" -g '*(:r)'
