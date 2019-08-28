@@ -1,0 +1,7 @@
+#compdef _setup setup
+
+function _setup {
+    local line
+
+    _files -W "$HOME/.config/setup" -g '*(:r)'
+} 
