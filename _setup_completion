@@ -1,4 +1,4 @@
-#compdef _setup_completion setup
+#compdef setup
 
 function _setup_completion {
     local line
